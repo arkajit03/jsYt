@@ -11,3 +11,12 @@ let boolean=Boolean(islog)
 console.log(boolean);
 //we will get output as  true becaue 1 is for true and 0 is for false
 // so in summary to conver we will capital the first latter of the datatype of lthe variable like String,Number,Boolean
+
+//=======================O perations============================
+
+console.log("1"+2);
+//hear we will get  the value of 12 because string first js treat all as string
+console.log(2+2+"3");
+//we will get 43 because int in the begening  and end with string so addition 
+//do  js increment
+ 
