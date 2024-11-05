@@ -1,5 +1,5 @@
 // singleton 
-const myHight=Symbol("five")
+const myHight=Symbol("five") 
 const myObj={
     Name: "Arkajit",
     email:"e22cseu00@google.com",
@@ -19,13 +19,13 @@ const myObj={
 // console.log(myObj)
 
 //function you can treat like variab
-myObj.greeting = function(){
+myObj.cool= function(){
     console.log("hello my name is Arkajit");
 
 }
 myObj.greetingTwo= function(){
-    console.log(`hello my name is only ${this.Name}`);
+    console.log(`hello my name is only  ${this.Name}`);
 
 }
-myObj.greeting();
+myObj.cool();
 myObj.greetingTwo();
